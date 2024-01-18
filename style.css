@@ -1,0 +1,42 @@
+body{
+    background-image: url(./Images/EARTH.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#projectName{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 70px;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+}
+
+#countryInput{
+    width: 500px;
+    height: 30px;
+}
+
+.countryDetails{
+    color: antiquewhite;
+}
+
+#countryContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#flag{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.commentSection{
+    background-color: antiquewhite;
+}
