@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const countryContainer = document.getElementById('countryContainer');
     form.addEventListener('submit',(e)=>{
         e.preventDefault();
+        countryContainer.innerHTML = ``;
         countryName = country.value;
         fetchDetails(countryName);
         country.value = '';
@@ -95,9 +96,16 @@ function renderComment(comment){
     commentDetail.textContent = comment;
     commentList.appendChild(commentDetail);
     let deleteComment = document.createElement('button');
-    deleteComment.textContent = 'delete';
+    deleteComment.textContent = 'X';
+    deleteComment.id = 'btn';
     commentDetail.appendChild(deleteComment);
     deleteComment.onclick = (e)=>{
         e.target.parentNode.remove();
     }
+}
+
+//Remove country from web page
+function removeCountry(){
+    let countryDetail = document.getElementById('countryContainer');
+    console.log(countryDetail);
 }
