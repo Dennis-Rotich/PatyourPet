@@ -104,8 +104,3 @@ function renderComment(comment){
     }
 }
 
-//Remove country from web page
-function removeCountry(){
-    let countryDetail = document.getElementById('countryContainer');
-    console.log(countryDetail);
-}
