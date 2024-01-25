@@ -10,6 +10,7 @@ A web application that allows users to search for information on any country in 
     <li>Fork and clone repository to your own directory</li>
     <li>Run explorer.exe index.html for WSL and linux users</li>
     <li>Run open index.html for MacOS users</li>
+    <li>Link to the web app is https://dennis-rotich.github.io/UniversalVillage/</li>
 </ul>
 
 ## License
