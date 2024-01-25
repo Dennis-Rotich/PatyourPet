@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     color: antiquewhite;
-    font-size: 70px;
+    font-size: 6rem;
 }
 
 #search{
@@ -18,8 +18,8 @@ body{
 }
 
 #countryInput{
-    width: 500px;
-    height: 30px;
+    width: 50rem;
+    height: 2rem;
 }
 
 .countryDetails{
@@ -30,13 +30,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: blue;
+    background-color:cadetblue;
     margin-right: 50rem;
 }
 
 #flag{
-    max-width: 200px;
-    max-height: 100px;
+    max-width: 20rem;
+    max-height: 10rem;
 }
 
 .commentSection{
